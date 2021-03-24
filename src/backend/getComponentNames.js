@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import getAtomSelector from './getAtomSelector';
+=======
+import getAtomSelector from "./getAtomSelector";
+>>>>>>> 6432202063cfefa4f70e3f18717480c274ce29f6
 
 // Creates and returns obj containing component info from rendered DOM
 export default function getComponentNames(fiberNode) {
@@ -48,7 +52,7 @@ export default function getComponentNames(fiberNode) {
             components.selectors = null;
           }
         };
-        // inital invocation of function with memostate
+        // initial invocation of function with memostate
         findAtomSelector(node.memoizedState);
       // node does not have memoizedState therefore no atom or selector on node
       } else {
@@ -70,6 +74,10 @@ export default function getComponentNames(fiberNode) {
     }
     return components;
   };
+<<<<<<< HEAD
   console.log(traverse(fiberNode));
+=======
+
+>>>>>>> 6432202063cfefa4f70e3f18717480c274ce29f6
   return traverse(fiberNode);
 }
