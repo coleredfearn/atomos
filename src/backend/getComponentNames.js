@@ -70,6 +70,6 @@ export default function getComponentNames(fiberNode) {
     }
     return components;
   };
-
+  console.log(traverse(fiberNode));
   return traverse(fiberNode);
 }
