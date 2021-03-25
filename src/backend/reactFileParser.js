@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 import getComponentNames from './getComponentNames';
 import renderComponentTree from './renderComponentTree';
-=======
-import getComponentNames from "./getComponentNames";
-import renderComponentTree from "./renderComponentTree";
->>>>>>> 6432202063cfefa4f70e3f18717480c274ce29f6
 
 // backend folder is referenced in manifest as a web accessible resource
 // script is injected into content.js so it can be ran there
